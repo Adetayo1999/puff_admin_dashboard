@@ -12,16 +12,10 @@ const Page404 = lazy(() => import("../pages/404"));
 const Blank = lazy(() => import("../pages/Blank"));
 const Products = lazy(() => import("../pages/Products"));
 
-/**
- * ⚠ These are internal routes!
- * They will be rendered inside the app, using the default `containers/Layout`.
- * If you want to add a route to, let's say, a landing page, you should add
- * it to the `App`'s router, exactly like `Login`, `CreateAccount` and other pages
- * are routed.
- *
- * If you're looking for the links rendered in the SidebarContent, go to
- * `routes/sidebar.js`
- */
+const loadModules = (path) => {
+  return lazy(() => import(`../pages/${path}`));
+};
+
 const routes = [
   {
     path: "/dashboard", // the url
@@ -62,6 +56,30 @@ const routes = [
   {
     path: "/blank",
     component: Blank,
+  },
+  {
+    path: "/dashboard/revenue",
+    component: loadModules("dashboard/revenue"),
+  },
+  {
+    path: "/dashboard/escalations",
+    component: loadModules("dashboard/escalations"),
+  },
+  {
+    path: "/dashboard/marketing",
+    component: loadModules("dashboard/marketing"),
+  },
+  {
+    path: "/dashboard/wallet",
+    component: loadModules("dashboard/wallet"),
+  },
+  {
+    path: "/dashboard/user",
+    component: loadModules("dashboard/user"),
+  },
+  {
+    path: "/dashboard/warehouse",
+    component: loadModules("dashboard/warehouse"),
   },
 ];
 

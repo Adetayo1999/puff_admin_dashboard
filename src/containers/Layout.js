@@ -36,7 +36,7 @@ function Layout() {
                   <Route
                     key={i}
                     exact={true}
-                    path={`/app${route.path}`}
+                    path={`${route.path}`}
                     render={(props) => <route.component {...props} />}
                   />
                 ) : null;
