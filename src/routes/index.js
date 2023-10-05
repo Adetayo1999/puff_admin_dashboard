@@ -81,6 +81,10 @@ const routes = [
     path: "/dashboard/warehouse",
     component: loadModules("dashboard/warehouse"),
   },
+  {
+    path: "/dashboard/revenue-category",
+    component: loadModules("dashboard/revenue-category"),
+  },
 ];
 
 export default routes;
