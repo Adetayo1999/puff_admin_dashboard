@@ -85,6 +85,10 @@ const routes = [
     path: "/dashboard/revenue-category",
     component: loadModules("dashboard/revenue-category"),
   },
+  {
+    path: "/dashboard/salary",
+    component: loadModules("dashboard/salary"),
+  },
 ];
 
 export default routes;
