@@ -27,6 +27,7 @@ import { ReactComponent as OutlinePersonIcon } from "./outlinePerson.svg";
 import { ReactComponent as OutlineCogIcon } from "./outlineCog.svg";
 import { ReactComponent as OutlineLogoutIcon } from "./outlineLogout.svg";
 import { ReactComponent as ExportIcon } from "./export.svg";
+import { ReactComponent as MenuVertialIcon } from "./menu-vertical.svg";
 
 export {
   ButtonsIcon,
@@ -58,4 +59,5 @@ export {
   OutlineCogIcon,
   OutlineLogoutIcon,
   ExportIcon,
+  MenuVertialIcon,
 };
