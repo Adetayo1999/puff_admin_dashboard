@@ -93,6 +93,30 @@ const routes = [
     path: "/warehouse/activities",
     component: loadModules("warehouse/activities"),
   },
+  {
+    path: "/warehouse/vendors",
+    component: loadModules("warehouse/vendors"),
+  },
+  {
+    path: "/warehouse/inventory",
+    component: loadModules("warehouse/inventory"),
+  },
+  {
+    path: "/warehouse/stock-req-form",
+    component: loadModules("warehouse/stock-req-form"),
+  },
+  {
+    path: "/warehouse/stock-inventory",
+    component: loadModules("warehouse/stock-inventory"),
+  },
+  {
+    path: "/warehouse/logistics",
+    component: loadModules("warehouse/logistics"),
+  },
+  {
+    path: "/warehouse/escalate",
+    component: loadModules("warehouse/escalate"),
+  },
 ];
 
 export default routes;

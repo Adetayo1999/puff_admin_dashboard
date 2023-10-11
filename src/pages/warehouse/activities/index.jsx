@@ -17,7 +17,7 @@ import { MenuVertialIcon, SearchIcon } from "../../../icons";
 import SectionTitle from "../../../components/Typography/SectionTitle";
 import InfoCard from "../../../components/Cards/InfoCard";
 import RoundIcon from "../../../components/RoundIcon";
-import { CartIcon, ChatIcon, MoneyIcon, PeopleIcon } from "../../../icons";
+import { MoneyIcon, PeopleIcon } from "../../../icons";
 
 const Activities = () => {
   const [activeAction, setActiveAction] = useState(null);
