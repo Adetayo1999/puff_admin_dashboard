@@ -117,6 +117,22 @@ const routes = [
     path: "/warehouse/escalate",
     component: loadModules("warehouse/escalate"),
   },
+  {
+    path: "/crm/escalate",
+    component: loadModules("crm/escalate"),
+  },
+  {
+    path: "/crm/orders",
+    component: loadModules("crm/orders"),
+  },
+  {
+    path: "/crm/finance",
+    component: loadModules("crm/finance"),
+  },
+  {
+    path: "/crm/logistics",
+    component: loadModules("crm/logistics"),
+  },
 ];
 
 export default routes;

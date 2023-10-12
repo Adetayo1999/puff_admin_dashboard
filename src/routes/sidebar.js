@@ -89,7 +89,7 @@ const routes = [
       },
       {
         name: "Logisitics",
-        path: "/crm/logisitics",
+        path: "/crm/logistics",
       },
       {
         name: "Schedule",
