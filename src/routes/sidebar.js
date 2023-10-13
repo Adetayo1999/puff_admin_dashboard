@@ -161,26 +161,26 @@ const routes = [
       },
     ],
   },
-  {
-    path: "/app/charts",
-    icon: "ChartsIcon",
-    name: "Charts",
-  },
-  {
-    path: "/app/buttons",
-    icon: "ButtonsIcon",
-    name: "Buttons",
-  },
-  {
-    path: "/app/modals",
-    icon: "ModalsIcon",
-    name: "Modals",
-  },
-  {
-    path: "/app/tables",
-    icon: "TablesIcon",
-    name: "Tables",
-  },
+  // {
+  //   path: "/app/charts",
+  //   icon: "ChartsIcon",
+  //   name: "Charts",
+  // },
+  // {
+  //   path: "/app/buttons",
+  //   icon: "ButtonsIcon",
+  //   name: "Buttons",
+  // },
+  // {
+  //   path: "/app/modals",
+  //   icon: "ModalsIcon",
+  //   name: "Modals",
+  // },
+  // {
+  //   path: "/app/tables",
+  //   icon: "TablesIcon",
+  //   name: "Tables",
+  // },
   // {
   //   icon: "PagesIcon",
   //   name: "Pages",
