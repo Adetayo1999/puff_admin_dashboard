@@ -133,6 +133,22 @@ const routes = [
     path: "/crm/logistics",
     component: loadModules("crm/logistics"),
   },
+  {
+    path: "/operations/escalate",
+    component: loadModules("operations/escalate"),
+  },
+  {
+    path: "/operations/project",
+    component: loadModules("operations/project"),
+  },
+  {
+    path: "/operations/finance",
+    component: loadModules("operations/finance"),
+  },
+  {
+    path: "/operations/logistics",
+    component: loadModules("operations/logistics"),
+  },
 ];
 
 export default routes;
