@@ -149,6 +149,30 @@ const routes = [
     path: "/operations/logistics",
     component: loadModules("operations/logistics"),
   },
+  {
+    path: "/hr/employees",
+    component: loadModules("hr/employees"),
+  },
+  {
+    path: "/hr/add-user",
+    component: loadModules("hr/add-user"),
+  },
+  {
+    path: "/hr/payroll",
+    component: loadModules("hr/payroll"),
+  },
+  {
+    path: "/hr/resources",
+    component: loadModules("hr/resources"),
+  },
+  {
+    path: "/hr/edit-user/:id",
+    component: loadModules("hr/edit-user"),
+  },
+  {
+    path: "/hr/view-user/:id",
+    component: loadModules("hr/view-user"),
+  },
 ];
 
 export default routes;

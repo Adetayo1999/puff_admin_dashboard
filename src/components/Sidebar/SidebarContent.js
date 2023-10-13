@@ -18,7 +18,7 @@ function SidebarContent() {
         className="ml-6 text-lg font-bold text-gray-800 dark:text-gray-200"
         href="#"
       >
-        Windmill
+        PUFF N PAZZ
       </a>
       <ul className="mt-6">
         {routes.map((route) =>
